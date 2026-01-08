@@ -16,4 +16,23 @@ else :
        count+=1
 
 
-#program to check whether the given numbers is prime or not
+#program for simple caluculator
+
+a=int(input("Number_first: "))
+b=int(input("Number_second : "))
+opr=input("enter the operator")
+
+if opr == "+":
+    print(a+b)
+elif opr=="-":
+    print(a-b)
+elif opr=="*":
+    print(a*b)
+elif opr=="/":
+    print(a/b)
+elif opr=="%":
+    print(a%b)
+elif opr=="//":
+    print(a//b)
+else :
+    print("jnot possible")
